@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Test{
+    static boolean in1020(int a,int b){
+        boolean c=((a>=10 && a<=20)||(b>=10 && b<=20))?(true):(false);
+        return c;
+    }
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter two values");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+
+        boolean d=in1020(a, b);
+        System.out.println(d);
+    }
+}
